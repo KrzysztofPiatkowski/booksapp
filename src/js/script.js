@@ -41,13 +41,7 @@ class BooksList{
       this.booksList.appendChild(element.firstElementChild);
     }
   }
-    
-  // Wywołanie funkcji render po załadowaniu strony
-  // document.addEventListener('DOMContentLoaded', function(){
-  //   render();
-  //   initActions();
-  // });
-
+  
   initActions(){
     this.booksList.addEventListener('dblclick', function(event) {
       event.preventDefault();
